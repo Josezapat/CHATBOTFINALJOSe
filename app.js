@@ -4,10 +4,20 @@ const BaileysProvider = require('@bot-whatsapp/provider/baileys')
 const MockAdapter = require('@bot-whatsapp/database/mock')
 
 const flowSecundario = addKeyword(['0', 'avt']).addAnswer(['Espera un momento por favor...⏳',
-'Un asistente en línea 👨🏻‍💻 se comunicará contigo (Atención: 9:30 am-8:00 pm)',
+'Un asistente en línea 👨🏻‍💻 se comunicará contigo *Atención Lunes a Sábados (9:30 am - 8:00 pm)*',
 '\n*chatbot* para regresar al menu principal'])
 
-const flowMenu = addKeyword(['menu', 'menú']).addAnswer('Ya casi! ahora escribe el comando *cbt*')
+const flowComprar = addKeyword(['9', 'Quiero realizar una compra']).addAnswer(['¡Excelente! 🤩 por favor indícanos los productos que te gustaría adquirir y si deseas con servicio de envío o Recojo en Tienda 🏬', 
+
+'\n*El costo de envío depende de la distancia 🚛',
+
+'\nRecuerda que también puedes comprar directamente en la tienda online 🌐 www.publicidadkyrios.com'])
+.addAnswer(['Espera un momento por favor...⏳',
+'Un asistente en línea 👨🏻‍💻 se comunicará contigo *Atención Lunes a Sábados (9:30 am - 8:00 pm)*',
+'\n*chatbot* para regresar al menu principal'])
+
+
+const flowMenu = addKeyword(['menu', 'menú']).addAnswer('¡Ya casi! Ahora solo escribe *cbt*')
 
 
 
@@ -62,13 +72,13 @@ const flowLetra = addKeyword(['2','tamaño de letra','letra', 'letra grande'])
 '📖DE ESTUDIO https://publicidadkyrios.com/cp/biblia/estudio/',
 '😇DEVOCIONAL https://publicidadkyrios.com/car/devocional/',
 '📝DE APUNTES https://publicidadkyrios.com/car/espacio-para-apuntes/',
-'©️CONCORDANCIA',
+'©️CONCORDANCIA https://publicidadkyrios.com/car/concordancia/',
 '🙏🏻PROMESAS https://publicidadkyrios.com/car/promesas/',
 '🤐CIERRE https://publicidadkyrios.com/car/cierre/',
 '🗂️CON ÍNDICE https://publicidadkyrios.com/fil/indice/',
 '🙌🏻PJR https://publicidadkyrios.com/car/palabras-de-jesus-en-rojo/',
-'🪙ECONÓMICA ',
-'📄ULTRAFINA',
+'🪙ECONÓMICA https://publicidadkyrios.com/car/economica/',
+'📄ULTRAFINA https://publicidadkyrios.com/car/ultrafina/',
 '🧲IMANTADA https://publicidadkyrios.com/car/iman/',
 '📦EN CAJA https://publicidadkyrios.com/car/viene-en-caja/',
 '\n*menu* para regresar al menu principal',
@@ -81,7 +91,6 @@ const flowLetra = addKeyword(['2','tamaño de letra','letra', 'letra grande'])
 
   const flowColor = addKeyword(['4', 'color','colores'])
 .addAnswer(['Escoge el color favorito para tu Biblia 🤩',
-'ROSA https://publicidadkyrios.com/color/rosa/',
 '⚫️NEGRO https://publicidadkyrios.com/color/negro/',
 '🟤MARRÓN https://publicidadkyrios.com/color/marron/',
 '🔵AZUL https://publicidadkyrios.com/color/azul/',
@@ -91,6 +100,7 @@ const flowLetra = addKeyword(['2','tamaño de letra','letra', 'letra grande'])
 '🟣LILA https://publicidadkyrios.com/color/lila/',
 '⚪️BLANCO https://publicidadkyrios.com/color/blanco/',
 '🟠NARANJA https://publicidadkyrios.com/color/naranja/',
+'🌸ROSA https://publicidadkyrios.com/color/rosa/',
 '🩶GRIS https://publicidadkyrios.com/color/gris/',
 '🍷VINO https://publicidadkyrios.com/color/vino/',
 '🩷FUCSIA https://publicidadkyrios.com/color/fucsia/',
@@ -114,7 +124,7 @@ const flowLetra = addKeyword(['2','tamaño de letra','letra', 'letra grande'])
 '👛BOLSILLO https://publicidadkyrios.com/tam/bolsillo/',
 '📁COMPACTA https://publicidadkyrios.com/tam/compacta/',
 '📗MEDIANA https://publicidadkyrios.com/tam/mediana/',
-'📘MANUAL',
+'📘MANUALhttps://publicidadkyrios.com/tam/manual/',
 '📙GRANDE https://publicidadkyrios.com/tam/grande/',
 '📔GIGANTE https://publicidadkyrios.com/tam/gigante/',
 '\n*menu* para regresar al menu principal',
@@ -216,7 +226,7 @@ const flowLetra = addKeyword(['2','tamaño de letra','letra', 'letra grande'])
 const flowIsrael = addKeyword(['4', 'Israel','shofar','candelabro','aceites'])
 .addAnswer(
     [
-        'Aquí encontrarás los productos de Israel disponibles:',
+        'Aquí encontrarás TODO los productos importados de Israel 👇🏼',
         'https://publicidadkyrios.com/cp/israel/',
         '\n🆕NUEVOS PRODUCTOS https://publicidadkyrios.com/cp/israel/?orderby=date',
         '🕎MENORAH https://publicidadkyrios.com/ep/menorah/',
@@ -246,7 +256,7 @@ const flowIsrael = addKeyword(['4', 'Israel','shofar','candelabro','aceites'])
 const flowRegalería = addKeyword(['3', 'regaleria', 'regalería', 'regalos', 'regalería Cristiana', 'regalitos','maderas']).addAnswer(
     [
         'Aquí podrás ver más de 200 productos para regalar: https://publicidadkyrios.com/cp/productos-kyrios/',
-        '\n📅ALMANAQUES 2023 https://publicidadkyrios.com/cp/almanaques-2023/',
+        '\n📅ALMANAQUES https://publicidadkyrios.com/cp/almanaques-2023/',
         '📒AGENDAS https://publicidadkyrios.com/cp/productos-kyrios/agendas/',
         '📃CERTIFICADOS https://publicidadkyrios.com/cp/productos-kyrios/certificados/',
         '😇FOLLETOS EVANGELISTICOS https://publicidadkyrios.com/cp/productos-kyrios/folletos-evangelisticos/',
@@ -272,8 +282,7 @@ const flowLibros = addKeyword(['2', 'Libro', 'Libros']).addAnswer(
        
     ]
 )
-.addAnswer(['Recuerda que si estás buscando algún libro en específico, puedes buscarlo en nuestra tienda online ',
-'Aquí encontrarás más de 1500 Títulos de libros:',
+.addAnswer(['Recuerda que si estás buscando algún libro en específico, puedes buscarlo en nuestra tienda online directamente en el buscador 🔍Aquí encontrarás más de 1500 Títulos 📚:',
         'https://publicidadkyrios.com/cp/libros/',
   
 '\n*menu* para regresar al menu principal',
@@ -334,22 +343,45 @@ const flowRedes = addKeyword(['7', 'redes', 'redes sociales']).addAnswer(
   [flowSecundario,flowMenu]
 )
 
-const flowNombre = addKeyword(['8', 'recomiendame'])
-  .addAnswer('¿Cuál es tu nombre?', { capture: 'nombre' }, (ctx) => {
-    console.log('Mensaje entrante:', ctx.body);
- 
-  })
+const flowDirección = addKeyword(['8', 'direccion', 'atencion','atención','horarios']).addAnswer(
+  [
+    '¡Tenemos 3 Tiendas en Lima, Perú! 🏬',
+    '\nCentro de Lima',
+    '🏡 Av. Roosevelt 201 📞 427 0937',
+    '⏰ Lunes a Sábados 9:00 am - 8:00 pm',
+    '📌https://goo.gl/maps/g8R92msQBL4rdDRb6',
+    '🏃🏻‍♂️Cómo llegar: https://vm.tiktok.com/ZM2yMcLt3/',
+    '\n🏡Av. Guzmán Blanco 287 📞 433 1118',
+    '⏰ Lunes a Sábados 9:30 am - 7:30 pm',
+    '⏰ Domingos 10:30 am - 4:00 pm',
+    '📌https://goo.gl/maps/Cj4DCFr5mba26CxD7',
+    '🏃🏻Cómo llegar: https://vm.tiktok.com/ZM2yMmCA3/',
+    '\nIndependencia',
+    '🏡 Nuevo mercado central FEVACEL Stand 5 - 3er Sector K06 📞 535 2628',
+    '⏰ Lunes a Sábados 11:00 am - 7:30 pm',
+    '📌https://goo.gl/maps/W1T16fL8BnWUiC47A',
+    '🏃🏻Cómo llegar: https://vm.tiktok.com/ZM2yMT4Vf/',
+      '\n*menu* para regresar al menu principal',
+      '*avt* Si quieres comunicarte con un asistente en línea 👨🏻‍💻'
+  ],
+  null,
+  null,
+  [flowSecundario,flowMenu]
+)
 
 
 
 
 
-const flowPrincipal = addKeyword(['cbt','chatbot'])
+
+
+
+const flowPrincipal = addKeyword(['cbt','chatbot','hola','Buenas noches','buenos dias','buenos días','buenas tardes','ola','holi','alo'])
   .addAnswer('Hola, bienvenido a la Librería Cristiana 👑 Publicidad Kyrios *Chatbot* 🟥⬜🟥')
   .addAnswer('Ingresa a la TIENDA CRISTIANA ONLINE 🛒: https://publicidadkyrios.com/')
   .addAnswer(
     [
-      '¿Qué producto estás buscando? ',
+      '¿Qué estás buscando? ',
       '*1* Biblias 📖',
       '*2* Libros 📚',
       '*3* Regalería Cristiana 🎉',
@@ -357,14 +389,16 @@ const flowPrincipal = addKeyword(['cbt','chatbot'])
       '*5* OFERTAS!🔥',
       '*6* Novedades 🤩',
       '*7* Nuestras Redes Sociales 📲',
-      '*8* Recomiendame una biblia',
+      '*8* Direcciones y horarios 📍 ',
+      '*9* Quiero comprar 🛍️',
       '\n*0* Si quieres comunicarte con un asistente en línea 👨🏻‍💻',
-      '*(Escribe alguna opción del 0 al 7)*'
+      
+      '*(Escribe alguna opción del 0 al 9)*'
       
     ],
     null,
       null,
-      [flowSecundario, flowNombre, flowMenu, flowRedes, flowImagen, flowBiblias, flowLibros, flowRegalería, flowIsrael, flowOfertas]
+      [flowSecundario, flowComprar, flowDirección,  flowMenu, flowRedes, flowImagen, flowBiblias, flowLibros, flowRegalería, flowIsrael, flowOfertas]
     
   )
   
@@ -382,8 +416,9 @@ const main = async () => {
         provider: adapterProvider,
         database: adapterDB,
     })
+    
 
-    QRPortalWeb()
+    QRPortalWeb({port:20202})
 }
 
 main()
