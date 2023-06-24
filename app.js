@@ -7,9 +7,12 @@ const flowSecundario = addKeyword(['0', 'avt']).addAnswer(['Espera un momento po
 'Un asistente en línea 👨🏻‍💻 se comunicará contigo *Atención Lunes a Sábados (9:30 am - 8:00 pm)*',
 '\n*cbt* para regresar al menu principal'])
 
-const flowComprar = addKeyword(['9', 'Quiero realizar una compra']).addAnswer(['¡Excelente! 🤩 por favor indícanos los productos que te gustaría adquirir y si deseas con servicio de envío o Recojo en Tienda 🏬', 
+const flowComprar = addKeyword(['9', 'Quiero realizar una compra']).addAnswer(['¡Excelente! 🤩 por favor indícanos los siguientes datos:',
 
-'\n*El costo de envío depende de la distancia 🚛',
+'\n- 🛒 Productos elegidos',
+'- 🏠 Destino (Omitir para recojo en tienda)',
+
+'\nEl costo de envío depende de la distancia 🚛',
 
 '\nRecuerda que también puedes comprar directamente en la tienda online 🌐 www.publicidadkyrios.com'])
 .addAnswer(['Espera un momento por favor...⏳',
@@ -50,6 +53,7 @@ const flowVersiones = addKeyword(['1','Version','versión','Versiones','reina va
   null,
   [flowSecundario,flowMenu]
   );
+
 
 
 
@@ -233,11 +237,11 @@ const flowIsrael = addKeyword(['4', 'Israel','shofar','candelabro','aceites'])
         '🐏SHOFAR https://publicidadkyrios.com/ep/shofar/',
         '✡️TALLIT https://publicidadkyrios.com/ep/tallit/',
         '🔑LLAVEROS https://publicidadkyrios.com/ep/llaveros/',
-        '✡️ACEITES https://publicidadkyrios.com/ep/aceite/',
+        '🪔ACEITES https://publicidadkyrios.com/ep/aceite/',
         '🧢KIPPAH https://publicidadkyrios.com/ep/kippah/',
         '🧣PASHMINA https://publicidadkyrios.com/ep/pashmina/',
-        '✡️MEZUZAH https://publicidadkyrios.com/ep/mezuza/',
-        '🕎BANDERAS https://publicidadkyrios.com/ep/bandera/',
+        '🚪MEZUZAH https://publicidadkyrios.com/ep/mezuza/',
+        '🚩BANDERAS https://publicidadkyrios.com/ep/bandera/',
         '\n*menu* para regresar al menu principal',
         '*avt* Si quieres comunicarte con un asistente en línea 👨🏻‍💻 '
         
@@ -279,6 +283,8 @@ const flowLibros = addKeyword(['2', 'Libro', 'Libros']).addAnswer(
         '🤓Diccionarios Bíblicos https://publicidadkyrios.com/ep/diccionarios-biblicos/',
         '📝Escuela Dominical https://publicidadkyrios.com/ep/escuela-dominical/',
         '🧑🏻Para Jóvenes https://publicidadkyrios.com/ep/libros-para-jovenes/',
+        '✍🏻Autores https://publicidadkyrios.com/autores-destacados/',
+        '📚 Temas https://publicidadkyrios.com/temas/',
        
     ]
 )
@@ -318,11 +324,22 @@ const flowBiblias = addKeyword(['1', 'Biblia', 'Biblias'])
 )
 
 
-const flowImagen = addKeyword('6').addAnswer('🌸Nuevas Biblias chicas con letra grande ¡COLECCIÓN PRIMAVERA!🌸',{
-  media:'https://scontent.flim6-4.fna.fbcdn.net/v/t39.30808-6/349623368_201431112819320_1640630143469304941_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeGkTPxjB05oX976jCBKIC7mEzGKLg_PbwQTMYouD89vBFud1MtxOaHZc9hWu3CkUE8t3oroXE6gSzzoW3Q8o0QA&_nc_ohc=iaiBL4nysMoAX8cOKKg&_nc_ht=scontent.flim6-4.fna&oh=00_AfBugZ411IJ_CybfURVF8VIJThnZ5YsINySjI8OrnMPmsQ&oe=64963FAB'
+const flowImagen = addKeyword(['6','tiktok','Tik tok']).addAnswer('Producto en Tendencia 🔝Biblia de Estudio Teológico RV60 (Pequeña)',{
+  media:'C:\Users\Usuario\OneDrive\Imágenes\Capturas de pantalla\Captura de pantalla 2023-06-24 123642.png'
 })
-.addAnswer(['Adquiérelas aquí 👇🏻👇🏻👇🏻',
-'https://publicidadkyrios.com/ep/coleccion-primavera/',
+.addAnswer(['Adquiérela aquí 👇🏻👇🏻👇🏻',
+'https://publicidadkyrios.com/producto/biblia-de-estudio-teologico-reina-valera-1960-flexible-negra-con-indice-pequena/'])
+.addAnswer(['Productos más virales de Tiktok 🔥',
+'💁🏻‍♀️Biblia Chicas NVI https://publicidadkyrios.com/producto/biblia-para-chicas-nvi/',
+'🔥Libro Incendiario https://publicidadkyrios.com/producto/incendiario-itiel-arroyo/',
+'📊Libros de la Biblia en Gráficos https://publicidadkyrios.com/ep/en-graficos/',
+'🗂️Tabs de Biblia https://publicidadkyrios.com/ep/tabs-para-biblia/',
+'😇Biblias Fuente de Bendición https://publicidadkyrios.com/ep/fuente-de-bendicion/',
+'🦁Biblia León https://publicidadkyrios.com/ep/leon/',
+'🖍️Resaltadores https://publicidadkyrios.com/producto/set-de-resaltadores-perfumados-especiales-para-biblia/',
+'🎬Biblia en Acción https://publicidadkyrios.com/ep/biblia-en-accion/',
+'📓Biblia Textual https://publicidadkyrios.com/ep/btx/',
+'\nTodos los productos que salen en TikTok https://publicidadkyrios.com/ep/tiktok/',
 '\n*menu* para regresar al menu principal',
 '*avt* Si quieres comunicarte con un asistente en línea 👨🏻‍💻'],
 null,
@@ -389,7 +406,7 @@ const flowPrincipal = addKeyword(['cbt'])
       '*3* Regalería Cristiana 🎉',
       '*4* Productos de Israel 🕎 ',
       '*5* OFERTAS!🔥',
-      '*6* Novedades 🤩',
+      '*6* Lo vi en TikTok 👀',
       '*7* Nuestras Redes Sociales 📲',
       '*8* Direcciones y horarios 📍 ',
       '*9* Quiero comprar 🛍️',
