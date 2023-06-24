@@ -306,7 +306,7 @@ const flowBiblias = addKeyword(['1', 'Biblia', 'Biblias'])
         '*6* Filo',
         '*7* Recomendadas para:',
         '*8* Tapa',
-        '*9* Los más vendidos',
+        '*9* Los más vendidos' ,
         'Nuevos modelos: https://publicidadkyrios.com/cp/biblia/?orderby=date',
         '\n*menu* para regresar al menu principal',
         '*avt* Si quieres comunicarte con un asistente en línea 👨🏻‍💻'
@@ -316,6 +316,7 @@ const flowBiblias = addKeyword(['1', 'Biblia', 'Biblias'])
     null,
     [flowSecundario,flowMenu, flowVersiones, flowLetra, flowCaracterísticas, flowColor, flowTamaño, flowFilo, flowRecomendadas, flowTapa, flowFavoritos]
 )
+
 
 const flowImagen = addKeyword('6').addAnswer('🌸Nuevas Biblias chicas con letra grande ¡COLECCIÓN PRIMAVERA!🌸',{
   media:'https://scontent.flim6-4.fna.fbcdn.net/v/t39.30808-6/349623368_201431112819320_1640630143469304941_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeGkTPxjB05oX976jCBKIC7mEzGKLg_PbwQTMYouD89vBFud1MtxOaHZc9hWu3CkUE8t3oroXE6gSzzoW3Q8o0QA&_nc_ohc=iaiBL4nysMoAX8cOKKg&_nc_ht=scontent.flim6-4.fna&oh=00_AfBugZ411IJ_CybfURVF8VIJThnZ5YsINySjI8OrnMPmsQ&oe=64963FAB'
@@ -327,6 +328,7 @@ const flowImagen = addKeyword('6').addAnswer('🌸Nuevas Biblias chicas con letr
 null,
 null,
 [flowSecundario,flowMenu] )  
+
 
 const flowRedes = addKeyword(['7', 'redes', 'redes sociales']).addAnswer(
   [
@@ -376,7 +378,7 @@ const flowDirección = addKeyword(['8', 'direccion', 'atencion','atención','hor
 
 
 
-const flowPrincipal = addKeyword(['cbt','chatbot','hola','Buenas noches','buenos dias','buenos días','buenas tardes','ola','holi','alo'])
+const flowPrincipal = addKeyword(['cbt','chatbot'])
   .addAnswer('Hola, bienvenido a la Librería Cristiana 👑 Publicidad Kyrios *Chatbot* 🟥⬜🟥')
   .addAnswer('Ingresa a la TIENDA CRISTIANA ONLINE 🛒: https://publicidadkyrios.com/')
   .addAnswer(

@@ -1,0 +1,120 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '51972528433@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB01D58B2D2FA0BBE6F59',
+    participant: undefined
+  },
+  messageTimestamp: 1687619351,
+  pushName: 'José Zapata',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'ya esta',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'ya esta',
+  from: '51972528433'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51972528433@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0810C743F4F1513C572',
+    participant: undefined
+  },
+  messageTimestamp: 1687619353,
+  pushName: 'José Zapata',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'hola',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'hola',
+  from: '51972528433'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51972528433@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0C5A80CDB9C5497136D',
+    participant: undefined
+  },
+  messageTimestamp: 1687619355,
+  pushName: 'José Zapata',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'buenos dias',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'buenos dias',
+  from: '51972528433'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51972528433@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0C1045C0F75A80AAE69',
+    participant: undefined
+  },
+  messageTimestamp: 1687619357,
+  pushName: 'José Zapata',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'buenas tardes',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'buenas tardes',
+  from: '51972528433'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51972528433@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0CD693B04F63DD162D2',
+    participant: undefined
+  },
+  messageTimestamp: 1687619360,
+  pushName: 'José Zapata',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'chatbot',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'chatbot',
+  from: '51972528433'
+}
