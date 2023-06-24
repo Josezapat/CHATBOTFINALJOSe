@@ -5,7 +5,7 @@ const MockAdapter = require('@bot-whatsapp/database/mock')
 
 const flowSecundario = addKeyword(['0', 'avt']).addAnswer(['Espera un momento por favor...⏳',
 'Un asistente en línea 👨🏻‍💻 se comunicará contigo *Atención Lunes a Sábados (9:30 am - 8:00 pm)*',
-'\n*chatbot* para regresar al menu principal'])
+'\n*cbt* para regresar al menu principal'])
 
 const flowComprar = addKeyword(['9', 'Quiero realizar una compra']).addAnswer(['¡Excelente! 🤩 por favor indícanos los productos que te gustaría adquirir y si deseas con servicio de envío o Recojo en Tienda 🏬', 
 
@@ -14,7 +14,7 @@ const flowComprar = addKeyword(['9', 'Quiero realizar una compra']).addAnswer(['
 '\nRecuerda que también puedes comprar directamente en la tienda online 🌐 www.publicidadkyrios.com'])
 .addAnswer(['Espera un momento por favor...⏳',
 'Un asistente en línea 👨🏻‍💻 se comunicará contigo *Atención Lunes a Sábados (9:30 am - 8:00 pm)*',
-'\n*chatbot* para regresar al menu principal'])
+'\n*cbt* para regresar al menu principal'])
 
 
 const flowMenu = addKeyword(['menu', 'menú']).addAnswer('¡Ya casi! Ahora solo escribe *cbt*')
@@ -378,7 +378,7 @@ const flowDirección = addKeyword(['8', 'direccion', 'atencion','atención','hor
 
 
 
-const flowPrincipal = addKeyword(['cbt','chatbot'])
+const flowPrincipal = addKeyword(['cbt'])
   .addAnswer('Hola, bienvenido a la Librería Cristiana 👑 Publicidad Kyrios *Chatbot* 🟥⬜🟥')
   .addAnswer('Ingresa a la TIENDA CRISTIANA ONLINE 🛒: https://publicidadkyrios.com/')
   .addAnswer(
