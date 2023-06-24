@@ -325,7 +325,7 @@ const flowBiblias = addKeyword(['1', 'Biblia', 'Biblias'])
 
 
 const flowImagen = addKeyword(['6','tiktok','Tik tok']).addAnswer('Producto en Tendencia 🔝Biblia de Estudio Teológico RV60 (Pequeña)',{
-  media:'C:\Users\Usuario\OneDrive\Imágenes\Capturas de pantalla\Captura de pantalla 2023-06-24 123642.png'
+  media:'https://i0.wp.com/publicidadkyrios.com/wp-content/uploads/2023/06/Biblia-de-Estudio-Teologico-Reina-Valera-1960-Flexible-Negra-con-Indice-Pequena2.jpg?fit=500%2C500&ssl=1'
 })
 .addAnswer(['Adquiérela aquí 👇🏻👇🏻👇🏻',
 'https://publicidadkyrios.com/producto/biblia-de-estudio-teologico-reina-valera-1960-flexible-negra-con-indice-pequena/'])
