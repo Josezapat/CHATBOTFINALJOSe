@@ -3,7 +3,7 @@ const QRPortalWeb = require('@bot-whatsapp/portal')
 const BaileysProvider = require('@bot-whatsapp/provider/baileys')
 const MockAdapter = require('@bot-whatsapp/database/mock')
 
-const flowSecundario = addKeyword(['0', 'avt']).addAnswer(['Espera un momento por favor...⏳',
+const flowSecundario = addKeyword(['0', 'avt']).addAnswer(['🛎️Espera un momento por favor...⏳',
 'Un asistente en línea 👨🏻‍💻 se comunicará contigo *Atención Lunes a Sábados (9:30 am - 8:00 pm)*',
 '\n*cbt* para regresar al menu principal'])
 
@@ -15,7 +15,7 @@ const flowComprar = addKeyword(['9', 'Quiero realizar una compra']).addAnswer(['
 '\nEl costo de envío depende de la distancia 🚛',
 
 '\nRecuerda que también puedes comprar directamente en la tienda online 🌐 www.publicidadkyrios.com'])
-.addAnswer(['Espera un momento por favor...⏳',
+.addAnswer(['🛎️Espera un momento por favor...⏳',
 'Un asistente en línea 👨🏻‍💻 se comunicará contigo *Atención Lunes a Sábados (9:30 am - 8:00 pm)*',
 '\n*cbt* para regresar al menu principal'])
 
