@@ -395,7 +395,7 @@ const flowDirección = addKeyword(['8', 'direccion', 'atencion','atención','hor
 
 
 
-const flowPrincipal = addKeyword(['cbt'])
+const flowPrincipal = addKeyword(['cbt','hola','ola','buenas','buenas tardes','buenos días','buenos dias','holi','oli','bendiciones','oa','precio','buenas noches'])
   .addAnswer('Hola, bienvenido a la Librería Cristiana 👑 Publicidad Kyrios *Chatbot* 🟥⬜🟥')
   .addAnswer('Ingresa a la TIENDA CRISTIANA ONLINE 🛒: https://publicidadkyrios.com/')
   .addAnswer(
