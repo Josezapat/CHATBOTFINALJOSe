@@ -1,0 +1,96 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '51972528433@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB00FFCB1B6C673B19BCE',
+    participant: undefined
+  },
+  messageTimestamp: 1688487467,
+  pushName: 'José Zapata',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'ese es el de comandos sólo se activa con "cbt"',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'ese es el de comandos sólo se activa con "cbt"',
+  from: '51972528433'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51972528433@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0FB9C8E2D8C62224EDD',
+    participant: undefined
+  },
+  messageTimestamp: 1688487508,
+  pushName: 'José Zapata',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'que tu mensaje de bienvenida sólo se envie entre las 9:30 am hasta las 7:30 o 8:00 pm',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'que tu mensaje de bienvenida sólo se envie entre las 9:30 am hasta las 7:30 o 8:00 pm',
+  from: '51972528433'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51972528433@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0A7C32A6C7F52B36220',
+    participant: undefined
+  },
+  messageTimestamp: 1688487520,
+  pushName: 'José Zapata',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'porque si se envia despues se puede combinar con el otro chatbot',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'porque si se envia despues se puede combinar con el otro chatbot',
+  from: '51972528433'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51987205262@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB076FAC17578082A4F74',
+    participant: undefined
+  },
+  messageTimestamp: 1688487579,
+  pushName: 'Marisol',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '2',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '2',
+  from: '51987205262'
+}
