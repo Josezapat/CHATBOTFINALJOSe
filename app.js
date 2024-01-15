@@ -94,7 +94,7 @@ const flowTiendaVirtual = addKeyword(['2','Tienda Virtual'])
 
 
 
-const flowChatbot= addKeyword(['3', 'Chatbot']).addAnswer('*Aplicación Web*',{
+const flowChatbot= addKeyword(['3', 'Chatbot']).addAnswer('*Chatbot Automatizado*',{
   media:'https://developerwebai.com/wp-content/uploads/2024/01/390cade0-5735-4974-bd10-923c96fd0a7e.jpg'
 })
 .addAnswer(
