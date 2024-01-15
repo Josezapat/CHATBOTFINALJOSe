@@ -178,8 +178,8 @@ const flowPrincipal = addKeyword(['cbt'])
   .addAnswer(
     [
       '¿En qué servicio estás interesado? ',
-      '*1* Aplicación Web 💻',
-      '*2* Aplicación Móvil 📱',
+      '*1* Aplicación Móvil 📱',
+      '*2* Aplicación Web 💻',
       '*3* Chatbot Automatizado 🤖',
       
       '\n*0* Si quieres comunicarte con un asistente en línea 👨🏻‍💻',
