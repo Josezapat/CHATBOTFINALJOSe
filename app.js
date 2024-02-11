@@ -109,7 +109,7 @@ const flowChatbot= addKeyword(['3', 'Chatbot']).addAnswer('*Chatbot Automatizado
         '- Puede incluir Inteligencia Artificial',
         '- Servidor Virtual Garantizado',
         'Optimiza la interacción con los clientes, impulsa la participación y lleva tu estrategia de ventas al siguiente nivel',
-        '*Chatbot automatizado* Precio: $50 USD',
+        '*Chatbot automatizado* Precio: $25 USD',
         '*Chatbot automatizado con IA* Precio: $55 USD',
         'Para mayor información: https://developerwebai.com/product-category/chatbot/',
         '\n*menu* para regresar al menu principal',
