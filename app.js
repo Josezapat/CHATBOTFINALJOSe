@@ -2014,7 +2014,7 @@ const flowDistrito32 = addKeyword(['Santa Anita', 'Comas', 'Miraflores' ,'Callao
   [flowSecundario,flowMenu, flowNoAdicional32, flowAdicional32, flowGlobo32]
   );
 
-  const flowDistrito31 = addKeyword(['SMP','S.M.P','San Martin de porres','San Martín de Porres',  'Los Olivos', 'Independencia',  'Cercado de Lima','Centro de Lima' , 'La Victoria' , 'Breña' , 'El Agustino' ,'Rimac','Rímac',  'Pueblo Libre','PL' ])
+  const flowDistrito31 = addKeyword(['SMP','S.M.P','San Martin de porres','San Martín de Porres',  'Los Olivos', 'Independencia',  'Cercado de Lima','Centro de Lima' , 'La Victoria' , 'Breña' , 'El Agustino' ,'Rimac','Rímac',  'Pueblo Libre','PL', 'Jesus Maria','J.M','JM',' Jesús María','Jesús Maria',' Jesus María', 'Lince'])
 
   .addAnswer([
     'Sería: ',
@@ -2124,7 +2124,7 @@ const flowDistrito22 = addKeyword(['Santa Anita', 'Comas', 'Miraflores' ,'Callao
   [flowSecundario,flowMenu, flowNoAdicional22, flowAdicional22, flowGlobo22]
   );
 
-  const flowDistrito21 = addKeyword(['SMP','S.M.P','San Martin de porres','San Martín de Porres',  'Los Olivos', 'Independencia',  'Cercado de Lima','Centro de Lima' , 'La Victoria' , 'Breña' , 'El Agustino' ,'Rimac','Rímac',  'Pueblo Libre','PL' ])
+  const flowDistrito21 = addKeyword(['SMP','S.M.P','San Martin de porres','San Martín de Porres',  'Los Olivos', 'Independencia',  'Cercado de Lima','Centro de Lima' , 'La Victoria' , 'Breña' , 'El Agustino' ,'Rimac','Rímac',  'Pueblo Libre','PL', 'Jesus Maria','J.M','JM',' Jesús María','Jesús Maria',' Jesus María', 'Lince' ])
 
   .addAnswer([
     'Sería: ',
@@ -2233,7 +2233,7 @@ const flowDistrito12 = addKeyword(['Santa Anita', 'Comas', 'Miraflores' ,'Callao
   [flowSecundario,flowMenu, flowNoAdicional12, flowAdicional12, flowGlobo12]
   );
 
-  const flowDistrito11 = addKeyword(['SMP','S.M.P','San Martin de porres','San Martín de Porres',  'Los Olivos', 'Independencia',  'Cercado de Lima','Centro de Lima' , 'La Victoria' , 'Breña' , 'El Agustino' ,'Rimac','Rímac',  'Pueblo Libre','PL' ])
+  const flowDistrito11 = addKeyword(['SMP','S.M.P','San Martin de porres','San Martín de Porres',  'Los Olivos', 'Independencia',  'Cercado de Lima','Centro de Lima' , 'La Victoria' , 'Breña' , 'El Agustino' ,'Rimac','Rímac',  'Pueblo Libre','PL', 'Jesus Maria','J.M','JM',' Jesús María','Jesús Maria',' Jesus María', 'Lince' ])
 
   .addAnswer([
     'Sería: ',
@@ -2263,7 +2263,7 @@ const flowDistrito12 = addKeyword(['Santa Anita', 'Comas', 'Miraflores' ,'Callao
 const flowPromo3= addKeyword(['3', 'Promoción 3', 'promoción 3', 'promocion 3', 'Promocion 3','Ramo de astromelias', 'promo 3', 'astromelias'])
 .addAnswer('¿Para donde sería el delivery?')
 .addAnswer('*Escribe el Distrito de la dirección de envío*',{
-  media:'https://firebasestorage.googleapis.com/v0/b/app-kyrios.appspot.com/o/Captura%20de%20pantalla%202024-02-18%20231747.png?alt=media&token=e4f91829-5aa6-4395-99c2-66b350b54db8'
+  media:'https://firebasestorage.googleapis.com/v0/b/app-kyrios.appspot.com/o/Captura%20de%20pantalla%202024-02-19%20143411.png?alt=media&token=b76e2947-f41d-4679-8266-c58043bf8b56'
 })
 
 .addAnswer(
@@ -2281,7 +2281,7 @@ const flowPromo3= addKeyword(['3', 'Promoción 3', 'promoción 3', 'promocion 3'
 const flowPromo2 = addKeyword(['2', 'Promoción 2', 'promoción 2', 'promocion 2', 'Promocion 2','Ramo de girasoles', 'promo 2', 'girasoles'])
 .addAnswer('¿Para donde sería el delivery?')
 .addAnswer('*Escribe el Distrito de la dirección de envío*',{
-  media:'https://firebasestorage.googleapis.com/v0/b/app-kyrios.appspot.com/o/Captura%20de%20pantalla%202024-02-18%20231747.png?alt=media&token=e4f91829-5aa6-4395-99c2-66b350b54db8'
+  media:'https://firebasestorage.googleapis.com/v0/b/app-kyrios.appspot.com/o/Captura%20de%20pantalla%202024-02-19%20143411.png?alt=media&token=b76e2947-f41d-4679-8266-c58043bf8b56'
 })
 
 .addAnswer(
@@ -2297,7 +2297,7 @@ const flowPromo2 = addKeyword(['2', 'Promoción 2', 'promoción 2', 'promocion 2
 const flowPromo1 = addKeyword(['1', 'Promoción 1', 'promoción 1', 'promocion 1', 'Promocion 1', 'Box Vip', 'promo 1', 'box de rosas','rosas'])
 .addAnswer('¿Para donde sería el delivery?')
 .addAnswer('*Escribe el Distrito de la dirección de envío*',{
-  media:'https://firebasestorage.googleapis.com/v0/b/app-kyrios.appspot.com/o/Captura%20de%20pantalla%202024-02-18%20231747.png?alt=media&token=e4f91829-5aa6-4395-99c2-66b350b54db8'
+  media:'https://firebasestorage.googleapis.com/v0/b/app-kyrios.appspot.com/o/Captura%20de%20pantalla%202024-02-19%20143411.png?alt=media&token=b76e2947-f41d-4679-8266-c58043bf8b56'
 })
 
 .addAnswer(
