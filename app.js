@@ -2319,7 +2319,8 @@ const flowPromo1 = addKeyword(['1', 'Promoción 1', 'promoción 1', 'promocion 1
 
 
 
-const flowPrincipal = addKeyword(['cbt'])
+const flowPrincipal = addKeyword(['cbt','Hola', 'Catálogo','Información','Que tal','Buenas tardes','Buenas noches','Buenos días','Buenos dias','Buenas'
+])
   .addAnswer('Hola qué tal, gracias por contactar a Lidia Florería 💐')
   .addAnswer('Tenemos estos 3 productos con el 60% de descuento solo por tiempo limitado, elige tu favorito!!💐')
   .addAnswer('*Promo 1*',{
