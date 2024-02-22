@@ -3109,7 +3109,7 @@ const flowPrincipal = addKeyword(['cbt'
       
       '\n*0* Si quieres comunicarte con un asistente en línea  👨🏻‍💻',
       
-      '*(Escribe alguna opción del 0 al 3)*',
+      '*(Escribe alguna opción del 0 al 4)*',
 
       
     ],
