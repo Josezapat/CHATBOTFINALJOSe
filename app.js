@@ -11,10 +11,10 @@ const flowMenu = addKeyword(['menu', 'menú']).addAnswer('¡Ya casi! Ahora solo 
 const flowGlobo35 = addKeyword(['Globo'])
 .addAnswer([
   'Sería: ',
-  'Ramo de Astromelias s/34.90',
+  'Ramo de Rosas y Girasol s/29.90',
   'Delivery s/30',
   'Adicional s/5',
-  '*TOTAL a pagar s/69.90*',
+  '*TOTAL a pagar s/64.90*',
 ])
 .addAnswer([
   'Para agendar el pedido, se deberá realizar el pago de confirmación del 50%, el pago restante lo realizara después de haber sido entregado el producto. ',
@@ -54,10 +54,10 @@ const flowGlobo35 = addKeyword(['Globo'])
   const flowGlobo34 = addKeyword(['Globo'])
 .addAnswer([
   'Sería: ',
-  'Ramo de Astromelias s/34.90',
+  'Ramo de Rosas y Girasol s/29.90',
   'Delivery s/25',
   'Adicional s/5',
-  '*TOTAL a pagar s/64.90*',
+  '*TOTAL a pagar s/59.90*',
 ])
 .addAnswer([
   'Para agendar el pedido, se deberá realizar el pago de confirmación del 50%, el pago restante lo realizara después de haber sido entregado el producto. ',
@@ -97,10 +97,10 @@ const flowGlobo35 = addKeyword(['Globo'])
   const flowGlobo33 = addKeyword(['Globo'])
 .addAnswer([
   'Sería: ',
-  'Ramo de Astromelias s/34.90',
+  'Ramo de Rosas y Girasol s/29.90',
   'Delivery s/20',
   'Adicional s/5',
-  '*TOTAL a pagar s/59.90*',
+  '*TOTAL a pagar s/54.90*',
 ])
 .addAnswer([
   'Para agendar el pedido, se deberá realizar el pago de confirmación del 50%, el pago restante lo realizara después de haber sido entregado el producto. ',
@@ -140,10 +140,10 @@ const flowGlobo35 = addKeyword(['Globo'])
   const flowGlobo32 = addKeyword(['Globo'])
   .addAnswer([
     'Sería: ',
-    'Ramo de Astromelias s/34.90',
+    'Ramo de Rosas y Girasol s/29.90',
     'Delivery s/15',
     'Adicional s/5',
-    '*TOTAL a pagar s/54.90*',
+    '*TOTAL a pagar s/49.90*',
   ])
   .addAnswer([
     'Para agendar el pedido, se deberá realizar el pago de confirmación del 50%, el pago restante lo realizara después de haber sido entregado el producto. ',
@@ -183,10 +183,10 @@ const flowGlobo35 = addKeyword(['Globo'])
     const flowGlobo31 = addKeyword(['Globo'])
     .addAnswer([
       'Ok entonces sería: ',
-      'Ramo de Astromelias s/34.90',
+      'Ramo de Rosas y Girasol s/29.90',
       'Delivery s/10',
       'Adicional s/5',
-      '*TOTAL a pagar s/49.90*',
+      '*TOTAL a pagar s/44.90*',
     ])
     .addAnswer([
       'Para agendar el pedido, se deberá realizar el pago de confirmación del 50%, el pago restante lo realizara después de haber sido entregado el producto. ',
@@ -655,10 +655,10 @@ const flowGlobo11 = addKeyword(['Globo'])
 const flowAdicional35 = addKeyword(['peluche', 'tiara','collar','anillo'])
 .addAnswer([
   'Sería: ',
-  'Ramo de Astromelias s/34.90',
+  'Ramo de Rosas y Girasol s/29.90',
   'Delivery s/30',
   'Adicional s/15',
-  '*TOTAL a pagar s/79.90*',
+  '*TOTAL a pagar s/74.90*',
 ])
 .addAnswer([
   'Para agendar el pedido, se deberá realizar el pago de confirmación del 50%, el pago restante lo realizara después de haber sido entregado el producto. ',
@@ -698,10 +698,10 @@ const flowAdicional35 = addKeyword(['peluche', 'tiara','collar','anillo'])
 const flowAdicional34 = addKeyword(['peluche', 'tiara','collar','anillo'])
 .addAnswer([
   'Sería: ',
-  'Ramo de Astromelias s/34.90',
+  'Ramo de Rosas y Girasol s/29.90',
   'Delivery s/25',
   'Adicional s/15',
-  '*TOTAL a pagar s/74.90*',
+  '*TOTAL a pagar s/69.90*',
 ])
 .addAnswer([
   'Para agendar el pedido, se deberá realizar el pago de confirmación del 50%, el pago restante lo realizara después de haber sido entregado el producto. ',
@@ -741,10 +741,10 @@ const flowAdicional34 = addKeyword(['peluche', 'tiara','collar','anillo'])
 const flowAdicional33 = addKeyword(['peluche', 'tiara','collar','anillo'])
 .addAnswer([
   'Sería: ',
-  'Ramo de Astromelias s/34.90',
+  'Ramo de Rosas y Girasol s/29.90',
   'Delivery s/20',
   'Adicional s/15',
-  '*TOTAL a pagar s/69.90*',
+  '*TOTAL a pagar s/64.90*',
 ])
 .addAnswer([
   'Para agendar el pedido, se deberá realizar el pago de confirmación del 50%, el pago restante lo realizara después de haber sido entregado el producto. ',
@@ -784,10 +784,10 @@ const flowAdicional33 = addKeyword(['peluche', 'tiara','collar','anillo'])
   const flowAdicional32 = addKeyword(['peluche', 'tiara','collar','anillo'])
   .addAnswer([
     'Sería: ',
-    'Ramo de Astromelias s/34.90',
+    'Ramo de Rosas y Girasol s/29.90',
     'Delivery s/15',
     'Adicional s/15',
-    '*TOTAL a pagar s/64.90*',
+    '*TOTAL a pagar s/59.90*',
   ])
   .addAnswer([
     'Para agendar el pedido, se deberá realizar el pago de confirmación del 50%, el pago restante lo realizara después de haber sido entregado el producto. ',
@@ -827,10 +827,10 @@ const flowAdicional33 = addKeyword(['peluche', 'tiara','collar','anillo'])
     const flowAdicional31 = addKeyword(['peluche', 'tiara','collar','anillo'])
     .addAnswer([
       'Ok entonces sería: ',
-      'Ramo de Astromelias s/34.90',
+      'Ramo de Rosas y Girasol s/29.90',
       'Delivery s/10',
       'Adicional s/15',
-      '*TOTAL a pagar s/59.90*',
+      '*TOTAL a pagar s/54.90*',
     ])
     .addAnswer([
       'Para agendar el pedido, se deberá realizar el pago de confirmación del 50%, el pago restante lo realizara después de haber sido entregado el producto. ',
@@ -1299,9 +1299,9 @@ const flowAdicional11 = addKeyword(['peluche', 'tiara','collar','anillo'])
 const flowNoAdicional35 = addKeyword(['no', 'todavia no','no por el momento','por ahora no'])
 .addAnswer([
   'Sería: ',
-  'Ramo de Astromelias s/34.90',
+  'Ramo de Rosas y Girasol s/29.90',
   'Delivery s/30',
-  '*TOTAL a pagar s/64.90*',
+  '*TOTAL a pagar s/59.90*',
 ])
 .addAnswer([
   'Para agendar el pedido, se deberá realizar el pago de confirmación del 50%, el pago restante lo realizara después de haber sido entregado el producto. ',
@@ -1341,9 +1341,9 @@ const flowNoAdicional35 = addKeyword(['no', 'todavia no','no por el momento','po
 const flowNoAdicional34 = addKeyword(['no', 'todavia no','no por el momento','por ahora no'])
 .addAnswer([
   'Sería: ',
-  'Ramo de Astromelias s/34.90',
+  'Ramo de Rosas y Girasol s/29.90',
   'Delivery s/25',
-  '*TOTAL a pagar s/59.90*',
+  '*TOTAL a pagar s/54.90*',
 ])
 .addAnswer([
   'Para agendar el pedido, se deberá realizar el pago de confirmación del 50%, el pago restante lo realizara después de haber sido entregado el producto. ',
@@ -1383,9 +1383,9 @@ const flowNoAdicional34 = addKeyword(['no', 'todavia no','no por el momento','po
 const flowNoAdicional33 = addKeyword(['no', 'todavia no','no por el momento','por ahora no'])
 .addAnswer([
   'Sería: ',
-  'Ramo de Astromelias s/34.90',
+  'Ramo de Rosas y Girasol s/29.90',
   'Delivery s/20',
-  '*TOTAL a pagar s/54.90*',
+  '*TOTAL a pagar s/49.90*',
 ])
 .addAnswer([
   'Para agendar el pedido, se deberá realizar el pago de confirmación del 50%, el pago restante lo realizara después de haber sido entregado el producto. ',
@@ -1425,9 +1425,9 @@ const flowNoAdicional33 = addKeyword(['no', 'todavia no','no por el momento','po
   const flowNoAdicional32 = addKeyword(['no', 'todavia no','no por el momento','por ahora no'])
   .addAnswer([
     'Sería: ',
-    'Ramo de Astromelias s/34.90',
+    'Ramo de Rosas y Girasol s/29.90',
     'Delivery s/15',
-    '*TOTAL a pagar s/49.90*',
+    '*TOTAL a pagar s/44.90*',
   ])
   .addAnswer([
     'Para agendar el pedido, se deberá realizar el pago de confirmación del 50%, el pago restante lo realizara después de haber sido entregado el producto. ',
@@ -1467,9 +1467,9 @@ const flowNoAdicional33 = addKeyword(['no', 'todavia no','no por el momento','po
     const flowNoAdicional31 = addKeyword(['no', 'todavia no','no por el momento','por ahora no'])
     .addAnswer([
       'Ok entonces sería: ',
-      'Ramo de Astromelias s/34.90',
+      'Ramo de Rosas y Girasol s/29.90',
       'Delivery s/10',
-      '*TOTAL a pagar s/44.90*',
+      '*TOTAL a pagar s/39.90*',
     ])
     .addAnswer([
       'Para agendar el pedido, se deberá realizar el pago de confirmación del 50%, el pago restante lo realizara después de haber sido entregado el producto. ',
@@ -1928,9 +1928,9 @@ const flowNoAdicional11 = addKeyword(['no', 'todavia no','no por el momento','po
 const flowDistrito35 = addKeyword(['Ventanilla', 'Villa María del Triunfo','Villa Maria del Triunfo','VMT','V.M.T',  'Villa el Salvador','VES','V.E.S'])
 .addAnswer([
   'Sería: ',
-  'Ramo de Astromelias s/34.90',
+  'Ramo de Rosas y Girasol s/29.90',
   'Delivery s/30',
-  '*TOTAL a pagar s/64.90*',
+  '*TOTAL a pagar s/59.90*',
 ])
 .addAnswer('¿Deseas agregar algún adicional?')
   .addAnswer('*Escribe el nombre del adicional que deseas comprar, por ejemplo peluche* ',{
@@ -1950,9 +1950,9 @@ const flowDistrito34 = addKeyword(['Carabayllo','Puente Piedra', 'San Juan de Mi
 
 .addAnswer([
   'Sería: ',
-  'BOX DE ROSAS s/34.90',
+  'Ramo de Rosas y Girasol s/29.90',
   'Delivery s/25',
-  '*TOTAL a pagar s/59.90*',
+  '*TOTAL a pagar s/54.90*',
 ])
 .addAnswer('¿Deseas agregar algún adicional?')
   .addAnswer('*Escribe el nombre del adicional que deseas comprar, por ejemplo peluche* ',{
@@ -1972,9 +1972,9 @@ const flowDistrito33 = addKeyword(['Santiago de Surco','Surco','Barranco'])
 
 .addAnswer([
   'Sería: ',
-  'Ramo de Astromelias s/34.90',
+  'Ramo de Rosas y Girasol s/29.90',
   'Delivery s/20',
-  '*TOTAL a pagar s/54.90*',
+  '*TOTAL a pagar s/49.90*',
 ])
 .addAnswer('¿Deseas agregar algún adicional?')
   .addAnswer('*Escribe el nombre del adicional que deseas comprar, por ejemplo peluche* ',{
@@ -1996,9 +1996,9 @@ const flowDistrito32 = addKeyword(['Santa Anita', 'Comas', 'Miraflores' ,'Callao
 
 .addAnswer([
   'Sería: ',
-  'Ramo de Astromelias s/34.90',
+  'Ramo de Rosas y Girasol s/29.90',
   'Delivery s/15',
-  '*TOTAL a pagar s/49.90*',
+  '*TOTAL a pagar s/44.90*',
 ])
 .addAnswer('¿Deseas agregar algún adicional?')
   .addAnswer('*Escribe el nombre del adicional que deseas comprar, por ejemplo peluche* ',{
@@ -2018,9 +2018,9 @@ const flowDistrito32 = addKeyword(['Santa Anita', 'Comas', 'Miraflores' ,'Callao
 
   .addAnswer([
     'Sería: ',
-    'Ramo de Astromelias s/34.90',
+    'Ramo de Rosas y Girasol s/29.90',
     'Delivery s/10',
-    '*TOTAL a pagar s/44.90*',
+    '*TOTAL a pagar s/39.90*',
   ])
   .addAnswer('¿Deseas agregar algún adicional?')
   .addAnswer('*Escribe el nombre del adicional que deseas comprar, por ejemplo peluche* ',{
@@ -2260,7 +2260,7 @@ const flowDistrito12 = addKeyword(['Santa Anita', 'Comas', 'Miraflores' ,'Callao
 
 
 
-const flowPromo3= addKeyword(['3', 'Promoción 3', 'promoción 3', 'promocion 3', 'Promocion 3','Ramo de astromelias', 'promo 3', 'astromelias'])
+const flowPromo3= addKeyword(['3', 'Promoción 3', 'promoción 3', 'promocion 3', 'Promocion 3','Ramo de Rosas y Girasol s/29.90', 'promo 3', 'Rosas y Girasol'])
 .addAnswer('¿Para donde sería el delivery?')
 .addAnswer('*Escribe el Distrito de la dirección de envío*',{
   media:'https://firebasestorage.googleapis.com/v0/b/app-kyrios.appspot.com/o/Captura%20de%20pantalla%202024-02-19%20143411.png?alt=media&token=b76e2947-f41d-4679-8266-c58043bf8b56'
@@ -2330,7 +2330,7 @@ const flowPrincipal = addKeyword(['cbt'
     media:'https://firebasestorage.googleapis.com/v0/b/app-kyrios.appspot.com/o/LIQUIDACION%202.png?alt=media&token=5495ae4d-281a-485b-a472-42700e01eca9'
   })
   .addAnswer('*Promo 3*',{
-    media:'https://firebasestorage.googleapis.com/v0/b/app-kyrios.appspot.com/o/LIQUIDACION%203.png?alt=media&token=fe50f78e-d51f-47d2-b30f-184fa9fe3b71'
+    media:'https://firebasestorage.googleapis.com/v0/b/app-kyrios.appspot.com/o/Rosas%20y%20Girasol.jpg?alt=media&token=e2109070-b692-4c00-85e3-9cc36a29c883'
   })
   .addAnswer(
     [
@@ -2338,7 +2338,8 @@ const flowPrincipal = addKeyword(['cbt'
       
       '\n*0* Si quieres comunicarte con un asistente en línea 👨🏻‍💻',
       
-      '*(Escribe alguna opción del 0 al 3)*'
+      '*(Escribe alguna opción del 0 al 3)*',
+
       
     ],
     null,
@@ -2346,6 +2347,9 @@ const flowPrincipal = addKeyword(['cbt'
       [flowSecundario,  flowMenu, flowPromo1, flowPromo2, flowPromo3]
     
   )
+  .addAnswer('Mira nuestro catálogo de productos:',{
+    media:'file:///C:/Users/Jose/Desktop/Clientes%20DeveloperWebAI/Lidia%20Florer%C3%ADa/CAT%C3%81LOGO%20LIDIA%20-%20FLORERIA%20Y%20REGALOS%20(18).pdf'
+  })
   
   
 
