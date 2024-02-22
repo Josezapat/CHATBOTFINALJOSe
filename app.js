@@ -3053,7 +3053,7 @@ const flowPromo2 = addKeyword(['2', 'Promoción 2', 'promoción 2', 'promocion 2
 .addAnswer(
     [
         '\n*menu* para regresar al menu principal',
-        '*avt* Si quieres comunicarte con un asistente en línea👨🏻‍💻'
+        '*avt* Si quieres comunicarte con un asistente en línea 👨🏻‍💻'
 
     ],
     null,
