@@ -3089,7 +3089,7 @@ const flowPrincipal = addKeyword(['cbt'
 ])
   .addAnswer('Hola qué tal, gracias por contactar a Lidia Florería 💐')
   .addAnswer('Accede a nuestro catálogo de productos: https://drive.google.com/file/d/1_WHXB5HqaRlRpt-Y2rQLPtJpeznVgpuY/view')
-  .addAnswer('Tenemos estos 3 productos con el 60% de descuento solo por tiempo limitado, elige tu favorito!!💐')
+  .addAnswer('Tenemos estos 4 productos con el 60% de descuento solo por tiempo limitado, elige tu favorito!!💐')
   
   .addAnswer('*Promo 1*',{
     media:'https://firebasestorage.googleapis.com/v0/b/app-kyrios.appspot.com/o/LIQUIDACION%201.png?alt=media&token=c8433d48-bc36-4566-b0ae-bca82a4f99ef'
