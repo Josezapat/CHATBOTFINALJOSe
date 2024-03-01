@@ -3867,7 +3867,7 @@ const flowDistrito12 = addKeyword(['Santa Anita', 'Comas', 'Miraflores' ,'Callao
 
 
 
-    const flowPromo4= addKeyword(['4', 'Promoción 4', 'promoción 4', 'promocion 4', 'Promocion 4','Ramo de astromelias', 'promo 4', 'astromelias'])
+    const flowPromo4= addKeyword([   '3', 'Promoción 3', 'promoción 3', 'promocion 3', 'Promocion 3',   'Ramo de astromelias', 'astromelias'])
     .addAnswer('¿Para donde sería el delivery?')
     .addAnswer('*Escribe el Distrito de la dirección de envío*',{
       media:'https://firebasestorage.googleapis.com/v0/b/app-kyrios.appspot.com/o/Captura%20de%20pantalla%202024-02-18%20231747.png?alt=media&token=e4f91829-5aa6-4395-99c2-66b350b54db8'
@@ -3884,7 +3884,7 @@ const flowDistrito12 = addKeyword(['Santa Anita', 'Comas', 'Miraflores' ,'Callao
         null,
         [flowSecundario,flowMenu, flowDistrito43, flowDistrito42, flowDistrito41, flowDistrito44, flowDistrito45])
 
-const flowPromo3= addKeyword(['3', 'Promoción 3', 'promoción 3', 'promocion 3', 'Promocion 3','Ramo de Rosas y Girasol s/29.90', 'promo 3', 'Rosas y Girasol'])
+const flowPromo3= addKeyword(['hejjdidjwo928r884jjeowiwu110294#%' ])
 .addAnswer('¿Para donde sería el delivery?')
 .addAnswer('*Escribe el Distrito de la dirección de envío*',{
   media:'https://firebasestorage.googleapis.com/v0/b/app-kyrios.appspot.com/o/Captura%20de%20pantalla%202024-02-19%20143411.png?alt=media&token=b76e2947-f41d-4679-8266-c58043bf8b56'
@@ -3947,7 +3947,7 @@ const flowPrincipal = addKeyword(['cbt'
 ])
   .addAnswer('Hola qué tal, gracias por contactar a Lidia Florería 💐')
   .addAnswer('Accede a nuestro catálogo de productos: https://drive.google.com/file/d/1DtxJhpCK3jCFoETjm-Z8LbpULcPy2diM/view')
-  .addAnswer('Tenemos estos 4 productos con el 60% de descuento solo por tiempo limitado, elige tu favorito!!💐')
+  .addAnswer('Tenemos estos 3 productos con el 60% de descuento solo por tiempo limitado, elige tu favorito!! 💐')
   
   .addAnswer('*Promo 1*',{
     media:'https://firebasestorage.googleapis.com/v0/b/app-kyrios.appspot.com/o/LIQUIDACION%201.png?alt=media&token=c8433d48-bc36-4566-b0ae-bca82a4f99ef'
@@ -3955,10 +3955,8 @@ const flowPrincipal = addKeyword(['cbt'
   .addAnswer('*Promo 2*',{
     media:'https://firebasestorage.googleapis.com/v0/b/app-kyrios.appspot.com/o/LIQUIDACION%202.png?alt=media&token=5495ae4d-281a-485b-a472-42700e01eca9'
   })
+  
   .addAnswer('*Promo 3*',{
-    media:'https://firebasestorage.googleapis.com/v0/b/app-kyrios.appspot.com/o/Rosas%20y%20Girasol.jpg?alt=media&token=e2109070-b692-4c00-85e3-9cc36a29c883'
-  })
-  .addAnswer('*Promo 4*',{
     media:'https://firebasestorage.googleapis.com/v0/b/app-kyrios.appspot.com/o/LIQUIDACION%203.png?alt=media&token=fe50f78e-d51f-47d2-b30f-184fa9fe3b71'
   })
   .addAnswer(
@@ -3967,7 +3965,7 @@ const flowPrincipal = addKeyword(['cbt'
       
       '\n*0* Si quieres comunicarte con un asistente en línea  👨🏻‍💻',
       
-      '*(Escribe alguna opción del 0 al 4)*',
+      '*(Escribe alguna opción del 0 al 3)*',
 
       
     ],
